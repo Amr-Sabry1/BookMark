@@ -1,0 +1,47 @@
+body {
+    background-image: url(../images/pexels-photo-1591447.jpeg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contain {
+    background-color: #00000095;
+    width: 50%;
+    margin: auto;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+#website {
+    width: 50%;
+    margin: auto;
+}
+
+@media screen and (max-width:992px) {
+    #website,
+    .contain {
+        width: 95%;
+        margin: auto;
+    }
+}
+
+.website .display {
+    border-radius: 10PX;
+    margin-bottom: 10PX;
+    border: 1px solid rgba(255, 255, 255, 0.596);
+    background-color: rgba(0, 0, 0, 0.621);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30PX;
+}
+
+.website a {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+::placeholder {
+    font-size: 15px !important;
+    color: rgba(255, 255, 255, 0.589) !important;
+}
